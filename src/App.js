@@ -43,15 +43,15 @@ function App() {
         <Nav numberOfItems={numberOfItems()} />
         <Routes>
           <Route path="/Library-Ecom/" element={<Home />} />
-          <Route path="/books" element={<Books books={books} />} />
+          <Route path="/Library-Ecom/books" element={<Books books={books} />} />
           <Route
-            path="/books/:id"
+            path="/Library-Ecom/books/:id"
             element={
               <BookInfo books={books} addToCart={addToCart} cart={cart} />
             }
           />
           <Route
-            path="/cart"
+            path="/Library-Ecom/cart"
             element={
               <Cart
                 books={books}

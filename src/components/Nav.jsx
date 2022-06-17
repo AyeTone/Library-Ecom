@@ -32,7 +32,7 @@ const Nav = ({ numberOfItems }) => {
           <FontAwesomeIcon icon="bars" />
         </button>
         <li className="nav__icon">
-          <Link to="/cart" className="nav__link">
+          <Link to="/Library-Ecom/cart" className="nav__link">
             <FontAwesomeIcon icon="shopping-cart" />
           </Link>
           {numberOfItems > 0 && (
@@ -50,12 +50,12 @@ const Nav = ({ numberOfItems }) => {
               </Link>
             </li>
             <li className="menu__list">
-              <Link to="/books" className="menu__link">
+              <Link to="/Library-Ecom/books" className="menu__link">
                 Books
               </Link>
             </li>
             <li className="menu__list">
-              <Link to="/cart" className="menu__link">
+              <Link to="/Library-Ecom/cart" className="menu__link">
                 Cart
               </Link>
             </li>

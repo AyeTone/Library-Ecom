@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <div className="container">
         <div className="row row__column">
-          <Link to="/">
+          <Link to="/Library-Ecom/">
             <figure className="footer__logo">
               <img src={Logo} alt="" className="footer__logo--img" />
             </figure>
@@ -21,10 +21,10 @@ const Footer = () => {
               {" "}
               About
             </Link>
-            <Link to="/books" className="footer__link">
+            <Link to="/Library-Ecom/books" className="footer__link">
               Books
             </Link>
-            <Link to="/cart" className="footer__link">
+            <Link to="/Library-Ecom/cart" className="footer__link">
               Cart
             </Link>
           </div>

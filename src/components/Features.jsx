@@ -3,8 +3,6 @@ import { books } from "../data";
 import Book from "./ui/Book";
 
 const Features = () => {
-  function getFiveStarBooks() {}
-
   const displayBooks = books
     .filter((book) => book.rating === 5)
     .slice(0, 4)
