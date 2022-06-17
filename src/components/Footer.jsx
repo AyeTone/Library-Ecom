@@ -17,14 +17,14 @@ const Footer = () => {
               {" "}
               Home
             </Link>
-            <Link to="/" className="footer__link no-cursor">
+            <Link to="/Library-Ecom/" className="footer__link no-cursor">
               {" "}
               About
             </Link>
-            <Link to="/Library-Ecom/books" className="footer__link">
+            <Link to="/books" className="footer__link">
               Books
             </Link>
-            <Link to="/Library-Ecom/cart" className="footer__link">
+            <Link to="/cart" className="footer__link">
               Cart
             </Link>
           </div>
