@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Library-Ecom/static/css/main.b90c8259.css",
-    "main.js": "/Library-Ecom/static/js/main.7e524e4b.js",
+    "main.js": "/Library-Ecom/static/js/main.f24399ef.js",
     "static/js/787.1c228fa4.chunk.js": "/Library-Ecom/static/js/787.1c228fa4.chunk.js",
     "static/media/Undraw_Books.svg": "/Library-Ecom/static/media/Undraw_Books.64f45ed25262241aba12eff6dcb25d88.svg",
     "static/media/Library.svg": "/Library-Ecom/static/media/Library.70d0a6a90c21c295982ded03f9ea8615.svg",
@@ -9,11 +9,11 @@
     "index.html": "/Library-Ecom/index.html",
     "static/media/wave.svg": "/Library-Ecom/static/media/wave.42edd5970e3619090a0f.svg",
     "main.b90c8259.css.map": "/Library-Ecom/static/css/main.b90c8259.css.map",
-    "main.7e524e4b.js.map": "/Library-Ecom/static/js/main.7e524e4b.js.map",
+    "main.f24399ef.js.map": "/Library-Ecom/static/js/main.f24399ef.js.map",
     "787.1c228fa4.chunk.js.map": "/Library-Ecom/static/js/787.1c228fa4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b90c8259.css",
-    "static/js/main.7e524e4b.js"
+    "static/js/main.f24399ef.js"
   ]
 }
