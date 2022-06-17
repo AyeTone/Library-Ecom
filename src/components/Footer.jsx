@@ -13,7 +13,7 @@ const Footer = () => {
             </figure>
           </Link>
           <div className="footer__list">
-            <Link to="/" className="footer__link">
+            <Link to="/Library-Ecom/" className="footer__link">
               {" "}
               Home
             </Link>

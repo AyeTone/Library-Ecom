@@ -14,12 +14,12 @@ const Nav = ({ numberOfItems }) => {
 
   return (
     <nav className="nav__container">
-      <Link to="/">
+      <Link to="/Library-Ecom/">
         <img className="logo" src={LibraryLogo} alt="Library Logo" />
       </Link>
       <ul className="nav__links">
         <li className="nav__list">
-          <Link to="/" className="nav__link">
+          <Link to="/Library-Ecom/" className="nav__link">
             Home
           </Link>
         </li>
@@ -45,7 +45,7 @@ const Nav = ({ numberOfItems }) => {
           </button>
           <ul className="menu__links">
             <li className="menu__list">
-              <Link to="/" className="menu__link">
+              <Link to="/Library-Ecom/" className="menu__link">
                 Home
               </Link>
             </li>

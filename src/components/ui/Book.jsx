@@ -13,7 +13,7 @@ const Book = ({ book }) => {
     image.src = book.url;
     image.onload = () => {
       setTimeout(() => {
-        if (!mountedRef.current) {
+        if (mountedRef.current) {
           setImg(image);
         }
       }, 300);

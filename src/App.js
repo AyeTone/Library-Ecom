@@ -42,7 +42,7 @@ function App() {
       <div className="App">
         <Nav numberOfItems={numberOfItems()} />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Library-Ecom/" element={<Home />} />
           <Route path="/books" element={<Books books={books} />} />
           <Route
             path="/books/:id"
